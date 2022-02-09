@@ -1,10 +1,20 @@
-# Qiita-Sync template
+# Qiita-Sync Template
 
-1. Install "Qiita Access Token" to your GitHub repository.
+## Create your Qiita Article GitHub repository
 
-2. "Actions" >> "Qiita Sync" >> "Run workflow" pulldown menu >> "Run workflow" button
+1. Click "Use this template" button, and create your GitHub repository.
 
-3. (OPTIONAL) Rewrite this README with the badge below (Replace \<Your-ID\> and \<Your-Repository\>)
+2. Generate "Qiita Acccess Token" of at your Qiita site.
+
+3. Open "Settings" >> "Secrets" >> "Actions" >> "New repository secret"
+
+4. Input "QIITA_ACCESS_TOKEN" to "Name" and the Qiita Access Token to "Value", and click "Add secret"
+
+5. "Actions" >> "Qiita Sync" >> "Run workflow" pulldown menu >> click "Run workflow" button
+
+6. Your Qiita articles will be downloaded to your GitHub repository.
+
+7. Rewrite this README for your own with the badge below (Replace \<Your-ID\> and \<Your-Repository\>)
 
 ```
 ![Qiita Sync](https://github.com/<Your-ID>/<Your-Repository>/actions/workflows/qiita_sync_check.yml/badge.svg)
