@@ -1,7 +1,5 @@
 # Qiita-Sync Template
 
-## Create your Qiita Article GitHub repository
-
 1. Click "Use this template" button, and create your GitHub repository.
 
 2. Generate "Qiita Acccess Token" of at your Qiita site.
